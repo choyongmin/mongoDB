@@ -1,8 +1,9 @@
 <h2>몽고 DB Centos7 설치</h2>
 <a href="https://docs.mongodb.com">https://docs.mongodb.com/ 참고</a>
-
-<h2> 0) yum install vim</h2>
-
+<div>
+	<h2> 0) Vim Install </h2>
+	<p>yum install vim</p>
+</div>
 <div>
 	<h2> 1) Configure the package management system (yum) </h2>
 	<p># Create a /etc/yum.repos.d/mongodb-org-3.4.repo file so that you can install MongoDB directly, using yum </p>
