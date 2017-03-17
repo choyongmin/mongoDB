@@ -1,13 +1,13 @@
 <h2>몽고 DB Centos7 설치</h2>
 <a href="https://robomongo.org/download">https://robomongo.org/ 참고</a>
 
-<p>* yum install vim</p>
+<h2> 0) yum install vim</h2>
 
 <div>
 	<h2> 1) Configure the package management system (yum) </h2>
 	<p># Create a /etc/yum.repos.d/mongodb-org-3.4.repo file so that you can install MongoDB directly, using yum </p>
 </div>
-<p>vim /etc/yum.repos.d/mongodb.repo</p>
+
 <div>
 	<h4>Centos7 64bit</h4>
 	<p># [mongodb-org-3.4] </p>
