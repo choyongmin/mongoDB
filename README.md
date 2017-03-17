@@ -1,5 +1,5 @@
 <h2>몽고 DB Centos7 설치</h2>
-<a href="https://robomongo.org/download">https://robomongo.org/ 참고</a>
+<a href="https://docs.mongodb.com">https://docs.mongodb.com/ 참고</a>
 
 <h2> 0) yum install vim</h2>
 
