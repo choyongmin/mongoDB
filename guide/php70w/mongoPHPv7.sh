@@ -27,6 +27,11 @@ $ pear version
 $ pecl install mongo //php v5
 $ pecl install mongodb //php v7
 
-$ echo "extension=mongodb.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
+//$ echo "extension=mongodb.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"
+$ vim /etc/php.d/mongo.ini 
+
+##########################
+extension=mongodb.so //add
+##########################
 
 $ systemctl restart httpd ( service httpd restart )
