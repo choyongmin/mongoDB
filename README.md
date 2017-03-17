@@ -30,3 +30,13 @@
 	<p># 2-1 yum update</p>
 	<p># 2-2 yum install mongodb-org mongodb-org-server</p>
 </div>
+<div>
+	<h2> 3) Get MongoDB Running</h2>
+	<p># systemctl start mongod ( service mongod start ) // Start-Up MongoDB</p>
+	<p># systemctl status mongod ( service mongod status ) // Check MongoDB Service Status</p>
+	<p># mongostat // Summary List of Status Statistics (Continuous)</p>
+	<p># mongostat --rowcount 5 2 // Summary List of Status Statistics (5 Rows, Summarized Every 2 Seconds)</p>
+	<p># mongo // Enter the MongoDB Command Line</p>
+	<p># mongo --port 22222</p>
+	<p># systemctl stop mongod ( service mongod stop) // Shutdown MongoDB </p>
+</div>
